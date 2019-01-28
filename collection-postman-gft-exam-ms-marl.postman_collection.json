@@ -1,0 +1,689 @@
+{
+	"info": {
+		"_postman_id": "f4f7a09c-52d1-42e1-87f3-f16d31dd597e",
+		"name": "collection-postman-gft-exam-ms-marl",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test-1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "accept-language",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "authorization",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "x-santander-global-id",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8181/customers/?customerId=00021247&documentNumber=DOCDXN&companyName=Santan&accountNumber=accc&name=RODOLFO&paternalName=CURIEL&maternalName=MANZ",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"customers",
+						""
+					],
+					"query": [
+						{
+							"key": "customerId",
+							"value": "00021247"
+						},
+						{
+							"key": "documentNumber",
+							"value": "DOCDXN"
+						},
+						{
+							"key": "companyName",
+							"value": "Santan"
+						},
+						{
+							"key": "accountNumber",
+							"value": "accc"
+						},
+						{
+							"key": "name",
+							"value": "RODOLFO"
+						},
+						{
+							"key": "paternalName",
+							"value": "CURIEL"
+						},
+						{
+							"key": "maternalName",
+							"value": "MANZ"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test-2-ID-NAME",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "accept-language",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "authorization",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "x-santander-global-id",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8181/customers/?customerId=00021247&documentNumber=DOCDXN&companyName=Santan&accountNumber=accc&name=RODOLFO&paternalName=&maternalName=",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"customers",
+						""
+					],
+					"query": [
+						{
+							"key": "customerId",
+							"value": "00021247"
+						},
+						{
+							"key": "documentNumber",
+							"value": "DOCDXN"
+						},
+						{
+							"key": "companyName",
+							"value": "Santan"
+						},
+						{
+							"key": "accountNumber",
+							"value": "accc"
+						},
+						{
+							"key": "name",
+							"value": "RODOLFO"
+						},
+						{
+							"key": "paternalName",
+							"value": ""
+						},
+						{
+							"key": "maternalName",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test-3-ID",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "accept-language",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "authorization",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "x-santander-global-id",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8181/customers/?customerId=00021247&documentNumber=DOCDXN&companyName=Santan&accountNumber=accc&name=&paternalName=&maternalName=",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"customers",
+						""
+					],
+					"query": [
+						{
+							"key": "customerId",
+							"value": "00021247"
+						},
+						{
+							"key": "documentNumber",
+							"value": "DOCDXN"
+						},
+						{
+							"key": "companyName",
+							"value": "Santan"
+						},
+						{
+							"key": "accountNumber",
+							"value": "accc"
+						},
+						{
+							"key": "name",
+							"value": ""
+						},
+						{
+							"key": "paternalName",
+							"value": ""
+						},
+						{
+							"key": "maternalName",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test-4-not-found",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "accept-language",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "authorization",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "x-santander-global-id",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8181/customers/?customerId=0002124X&documentNumber=DOCDXN&companyName=Santan&accountNumber=accc&name=&paternalName=&maternalName=",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"customers",
+						""
+					],
+					"query": [
+						{
+							"key": "customerId",
+							"value": "0002124X"
+						},
+						{
+							"key": "documentNumber",
+							"value": "DOCDXN"
+						},
+						{
+							"key": "companyName",
+							"value": "Santan"
+						},
+						{
+							"key": "accountNumber",
+							"value": "accc"
+						},
+						{
+							"key": "name",
+							"value": ""
+						},
+						{
+							"key": "paternalName",
+							"value": ""
+						},
+						{
+							"key": "maternalName",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test-5-all-GONZALEZ",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "accept-language",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "authorization",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "x-santander-global-id",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8181/customers/?customerId=&documentNumber=DOCDXN&companyName=Santan&accountNumber=accc&name=&paternalName=&maternalName=GONZALEZ",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"customers",
+						""
+					],
+					"query": [
+						{
+							"key": "customerId",
+							"value": ""
+						},
+						{
+							"key": "documentNumber",
+							"value": "DOCDXN"
+						},
+						{
+							"key": "companyName",
+							"value": "Santan"
+						},
+						{
+							"key": "accountNumber",
+							"value": "accc"
+						},
+						{
+							"key": "name",
+							"value": ""
+						},
+						{
+							"key": "paternalName",
+							"value": ""
+						},
+						{
+							"key": "maternalName",
+							"value": "GONZALEZ"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test-6",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "accept-language",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "authorization",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "x-santander-global-id",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8181/customers/?customerId=00021246&documentNumber=DOCDXN&companyName=Santan&accountNumber=accc&name=&paternalName=&maternalName=GONZALEZ",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"customers",
+						""
+					],
+					"query": [
+						{
+							"key": "customerId",
+							"value": "00021246"
+						},
+						{
+							"key": "documentNumber",
+							"value": "DOCDXN"
+						},
+						{
+							"key": "companyName",
+							"value": "Santan"
+						},
+						{
+							"key": "accountNumber",
+							"value": "accc"
+						},
+						{
+							"key": "name",
+							"value": ""
+						},
+						{
+							"key": "paternalName",
+							"value": ""
+						},
+						{
+							"key": "maternalName",
+							"value": "GONZALEZ"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test-7-not-found",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "accept-language",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "authorization",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "x-santander-global-id",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8181/customers/?customerId=00021246&documentNumber=DOCDXN&companyName=Santan&accountNumber=accc&name=&paternalName=&maternalName=GONZALEZX",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"customers",
+						""
+					],
+					"query": [
+						{
+							"key": "customerId",
+							"value": "00021246"
+						},
+						{
+							"key": "documentNumber",
+							"value": "DOCDXN"
+						},
+						{
+							"key": "companyName",
+							"value": "Santan"
+						},
+						{
+							"key": "accountNumber",
+							"value": "accc"
+						},
+						{
+							"key": "name",
+							"value": ""
+						},
+						{
+							"key": "paternalName",
+							"value": ""
+						},
+						{
+							"key": "maternalName",
+							"value": "GONZALEZX"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test-8-ALL",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "accept-language",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "authorization",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "x-santander-global-id",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8181/customers/?customerId=&documentNumber=DOCDXN&companyName=Santan&accountNumber=accc&name=&paternalName=&maternalName=",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"customers",
+						""
+					],
+					"query": [
+						{
+							"key": "customerId",
+							"value": ""
+						},
+						{
+							"key": "documentNumber",
+							"value": "DOCDXN"
+						},
+						{
+							"key": "companyName",
+							"value": "Santan"
+						},
+						{
+							"key": "accountNumber",
+							"value": "accc"
+						},
+						{
+							"key": "name",
+							"value": ""
+						},
+						{
+							"key": "paternalName",
+							"value": ""
+						},
+						{
+							"key": "maternalName",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

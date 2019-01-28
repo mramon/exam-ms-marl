@@ -11,4 +11,9 @@ public abstract class BaseSpecification<T, U> {
     protected String containsLowerCase(String searchField) {
         return wildcard + searchField.toLowerCase() + wildcard;
     }
+    
+    protected String equalsLowerCase(String searchField) {
+        return searchField.toLowerCase();
+    }
+    
 }
