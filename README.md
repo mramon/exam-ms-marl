@@ -1,8 +1,10 @@
 # exam-ms-marl
 
 RELEASE-NOTES:
+
   - run in port 8181
   - HTTPS no implemented yet. (Too busy in the work past week)
+  
   - H2 database enabled.
   
       inserts in resources/data.sql
