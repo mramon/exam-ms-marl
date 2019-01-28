@@ -9,7 +9,9 @@ RELEASE-NOTES:
   
       inserts in resources/data.sql
       link to see table´s data:
-      http://localhost:8080/h2-console    jdbc:h2:mem:testdb  
+      
+      http://localhost:8080/h2-console    
+        jdbc:h2:mem:testdb  
       
   -Swagger links:
     http://localhost:8080/v2/api-docs
